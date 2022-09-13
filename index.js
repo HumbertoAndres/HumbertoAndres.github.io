@@ -19,7 +19,7 @@ setDatosPost = () => {
         body: raw,
         redirect: 'follow'
     };
-     fetch("http://gps.trailingsat.com.ar/api/WService.js", requestOptions)
+     fetch("https://gps.trailingsat.com.ar/api/WService.js", requestOptions)
        
         .then((result) => result.json())
         .catch(error => console.log('error', error))
